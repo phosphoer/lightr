@@ -15,8 +15,6 @@ And make this:
 
 ![gif](http://i.imgur.com/d4gpMbN.gif)
 
-## About
-
 
 ## Usage
 
