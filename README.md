@@ -21,19 +21,23 @@ And make this:
 Download Lightr.js, the API is pretty simple.
 
 ### Lightr.lightHeight
-Default 0.5.
+Default `0.5`.
+
 This controls the Z position of the light source. Currently Lightr only supports a single directional light for baking. Positive values mean the light will be above your sprite, so flat surfaces will get lit.
 
 ### Lightr.ambientLight
-Default [0.1, 0.1, 0.1].
+Default `[0.1, 0.1, 0.1]`.
+
 This controls the color / intensity of the ambient light. This value is directly added to the final color, so [1, 1, 1] means your output will be fully white!
 
 ### Lightr.minLightIntensity
-Default 0.0.
+`Default 0.0`.
+
 This controls the minimum light that any one pixel can receive. A value of 0 means that if the surface is facing away from the light source, it will be completely dark. A value of 1 means that all pixels are always fully lit.
 
 ### Lightr.lightDiffuse
-Default [1, 1, 1].
+Default `[1, 1, 1]`.
+
 This controls the color of the light source. The default is a plain white light.
 
 ### Array\<Canvas\> Lightr.bake(Image diffuseMap, Image normalMap, int numDirs)
