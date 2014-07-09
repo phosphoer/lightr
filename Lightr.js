@@ -15,7 +15,7 @@ api.lightDiffuse = [1, 1, 1];
 
 // Bake the lighting for a given diffuse and normal map
 // Returns an array of canvases
-api.bake = function(diffuseMap, normalMap, numDirs)
+api.bake = function(numDirs, diffuseMap, normalMap)
 {
   var canvasDiffuse = createCanvas(diffuseMap.width, diffuseMap.height);
   var canvasNormals = createCanvas(normalMap.width, normalMap.height);
