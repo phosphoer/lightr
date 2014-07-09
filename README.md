@@ -36,7 +36,7 @@ This controls the minimum light that any one pixel can receive. A value of 0 mea
 Default [1, 1, 1].
 This controls the color of the light source. The default is a plain white light.
 
-### Array<Canvas> Lightr.bake(Image diffuseMap, Image normalMap, int numDirs)
+### Array\<Canvas\> Lightr.bake(Image diffuseMap, Image normalMap, int numDirs)
 This is the function you use to actually bake your lighting out to a set of images. The first two parameters are `Image` objects, that represent your diffuse (color) map, and the relevant normal map. `numDirs` is how many divisions of a full circle the lighting should calculate. For example, a value of 4 would give you 4 images back, one for each cardinal direction. A value of 8 gives you 8 images, and so on. I find that 6-8 images is sufficient for most purposes.
 
 The return is an array of `Canvas` elements containing the rendered out lighting, in counter clockwise order. I utilize these by blending between them at runtime based on the direction of the light to my sprite. 
