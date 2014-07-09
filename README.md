@@ -41,6 +41,25 @@ This is the function you use to actually bake your lighting out to a set of imag
 
 The return is an array of `Canvas` elements containing the rendered out lighting, in counter clockwise order. I utilize these by blending between them at runtime based on the direction of the light to my sprite. 
 
+## Example
+
+```javascript
+Lightr.minLightIntensity = 0.2;
+
+var diffuse = new Image();
+var normal = new Image();
+diffuse.src = 'diffuse.png';
+normal.src = 'normal.png';
+
+diffuse.onload = function()
+{
+  normal.onload = function()
+  {
+    var buffers = Lightr.bake(diffuse, normal, 6);
+  };
+};
+```
+
 ## License
 
 MIT
