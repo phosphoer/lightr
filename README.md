@@ -20,6 +20,10 @@ And make this:
 
 Download Lightr.js, the API is pretty simple.
 
+You can also install via npm.
+
+`npm install lightr`
+
 ### Lightr.lightHeight
 Default `0.5`
 

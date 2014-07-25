@@ -1,0 +1,26 @@
+{
+  "name": "lightr",
+  "version": "0.1.0",
+  "description": "Bake lighting in HTML5 Canvas using normal maps.",
+  "main": "Lightr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phosphoer/Lightr.git"
+  },
+  "keywords": [
+    "html5",
+    "lighting",
+    "normal",
+    "map",
+    "bake"
+  ],
+  "author": "David Evans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phosphoer/Lightr/issues"
+  },
+  "homepage": "https://github.com/phosphoer/Lightr"
+}
