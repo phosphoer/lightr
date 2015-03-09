@@ -1,6 +1,8 @@
 Lightr
 ======
 
+[![lightr API Documentation](https://www.omniref.com/js/npm/lightr.png)](https://www.omniref.com/js/npm/lightr)
+
 Bake lighting in HTML5 Canvas using normal maps.
 
 Take this:
@@ -67,9 +69,6 @@ diffuse.onload = function()
   };
 };
 ```
-
-## Q & A / Source code annotations
-Check out the docs on [omniref](https://www.omniref.com/js/npm/lightr)
 
 ## License
 
