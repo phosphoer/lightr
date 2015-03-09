@@ -68,6 +68,9 @@ diffuse.onload = function()
 };
 ```
 
+## Q & A / Source code annotations
+Check out the docs on [omniref](https://www.omniref.com/js/npm/lightr)
+
 ## License
 
 MIT
